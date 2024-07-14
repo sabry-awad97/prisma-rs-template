@@ -1,7 +1,4 @@
-use crate::db::*;
-
-#[allow(warnings, unused)]
-pub mod db;
+use prisma::*;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {

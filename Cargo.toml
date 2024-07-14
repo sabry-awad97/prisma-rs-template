@@ -1,14 +1,9 @@
 [package]
 name = "prisma"
 authors = ["Dr.Sabry"]
-default-run = "prisma"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[[bin]]
-name = "prisma"
-path = "src/main.rs"
 
 [[bin]]
 name = "prisma-cli"
